@@ -1,0 +1,485 @@
+.container{
+	max-width: 1200px;
+	margin: auto;
+}
+
+header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	padding-top: 44px;
+}
+.input{
+	background: #fff;
+	background-repeat: no-repeat;
+	height: 40px;
+	border: 1px solid #D9D9D9;
+	border-radius: 2px;
+	font-size: 16px;
+	line-height: 24px;
+	padding-left: 32px;
+	background-position: left 10px center;
+}
+
+.input-address{
+	width: 690px;
+	background-image: url(../img/home.svg);
+}
+* {
+	box-sizing: border-box;
+}
+
+.button{
+	display: flex;
+	align-items: center;
+	padding: 8px 16px;
+	background: #fff;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+	background-origin: 2px;
+	color: #000;
+	font-size: 16px;
+	line-height: 24px;
+	border-radius: 2px;
+}
+
+.buttons{
+	display: flex;
+	align-items: center;
+}
+.button-primary{
+	background: #1890FF;
+	margin-right: 10px;
+	color: #fff;
+	border: none;
+}
+
+.button-icon{
+	margin-bottom: 3px;
+	margin-right: 4px;
+	vertical-align: middle;
+}
+
+.button-text{
+	vertical-align: middle;
+}
+
+.button-shoppingcart{
+	border: 1px solid #D9D9D9;
+	color: #595959;
+}
+.main{
+	background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%);
+}
+.promo{
+	height: 300px;
+	box-shadow: 0px 7px 12px rgba(158, 158, 163, 0.1);
+	background: url(../img/promo-img.png) #FFF1B8 no-repeat top 0px right 0px;
+	border-radius: 10px;
+	padding: 68px 70px;
+}
+.offer{
+	max-width: 538px;
+	height: 163px;
+}
+.promo-title{
+	margin-top: 0;
+	margin-bottom: 15px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 39px;
+	color: #302C34 ;
+	line-height:46px;
+}
+.promo-text{
+	margin-top: 0;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	color: #302C34;
+}
+.search-input{
+	background-image: url(../img/search.svg);
+	width: 310px;
+}
+.head-restaurants{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 57px;
+    padding-bottom: 44px;
+}
+.cards{
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.card{
+	background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.card-image{
+	width: 384px;
+	height: 250px;
+	object-fit: cover;
+}
+.card-info{
+	padding-top: 20px;
+	padding-bottom: 45px;
+	padding-left: 23px;
+	padding-right: 23px;
+}
+.card-heading{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.card-title{
+	margin: 21px 0px 10px 24px;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 32px;
+}
+.time{
+	margin: 21px 24px 10px 0px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	background: #262626;
+	color: #fff;
+	width: 55px;
+	height: 22px;
+	border-radius: 2px;
+}
+.card-info{
+	display: flex;
+	align-items: center;
+}
+.star{
+	margin-left: 24px;
+	margin-right: 8px;
+}
+.rating{
+	font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFC107;
+    margin-right: 26px;
+}
+.price{
+	margin-right: 10px;
+	color: #8C8C8C;
+	font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+}
+.category{
+	margin-left: 10px;
+	font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #8C8C8C;
+}
+.footer{
+	background: #fff;
+	padding: 60px 0px;
+}
+.footer-block{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer-link{
+	display: inline-block;
+	color: #595959;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+.footer-link:not(:last-child){
+	margin-right: 15px;
+}
+.footer-nav{
+	margin-left: 35px;
+	margin-right: auto;
+}
+.social-links{
+	display: flex;
+	align-items: center;
+}
+.social-link:not(:last-child){
+	margin-right: 21px;
+}
+/*Responsive*/
+
+/* 992px-1200px*/
+@media screen and (max-width: 1200px) {
+ .container{
+ 	width: 960px;
+ }
+.card{
+	margin: auto;
+	margin-bottom: 25px;
+}
+/* 768px-992px*/
+@media screen and (max-width: 992px) {
+.container{
+ 	width: 720px;
+ }
+.input{
+ 	height: 35px;
+ 	font-size: 14px;
+	line-height: 22px;
+ }
+ .button{
+ 	font-size: 14px;
+	line-height: 22px;
+	padding: 7px 15px;
+ }
+ .button-primary{
+ 	margin-left: 10px;
+ }
+ .promo{
+ 	height: 250px;
+ 	padding: 50px 60px;
+ 	background-size: 550px 300px;
+ }
+ .offer{
+ 	width: 338px;
+ }
+ .promo-title{
+ 	font-size: 28px;
+ 	line-height:35px;
+ }
+ .promo-text{
+ 	font-size: 20px;
+ 	line-height:23px;
+ }
+ .card-image{
+	width: 344px;
+	height: 200px;
+}
+.card-title{
+	font-size: 20px;
+	line-height: 28px;
+}
+.time{
+	font-size: 10px;
+	line-height: 18px;
+	width: 45px;
+	height: 15px;
+	text-align: center;
+}
+.rating{
+    font-size: 16px;
+    line-height: 30px;
+    margin-right: 24px;
+}
+.price{
+	margin-right: 8px;
+    font-size: 16px;
+    line-height: 30px;
+}
+.category{
+	margin-left: 8px;
+    font-size: 16px;
+    line-height: 30px;
+}
+.footer-link{
+    font-size: 16px;
+    line-height: 19px;
+}
+/* 576px-768px*/
+@media screen and (max-width: 768px) {
+.container{
+ 	width: 540px;
+ }
+ .input{
+ 	height: 28px;
+ 	font-size: 12px;
+	line-height: 20px;
+ }
+ .button{
+ 	font-size: 12px;
+	line-height: 20px;
+	padding: 5px 13px;
+ }
+ .button-primary{
+ 	margin-left: 8px;
+ }
+ .promo{
+ 	height: 180px;
+ 	padding: 30px 50px;
+ 	background-size: 400px 180px;
+ }
+ .offer{
+ 	width: 280px;
+ 	height: 130px;
+ }
+ .promo-title{
+ 	font-size: 22px;
+ 	line-height:28px;
+ }
+ .promo-text{
+ 	font-size: 14px;
+ 	line-height:17px;
+ }
+ .card-image{
+	width: 244px;
+	height: 100px;
+}
+.card{
+	margin-bottom: 20px;
+
+}
+.card-title{
+	font-size: 14px;
+	line-height: 22px;
+}
+.card-info{
+	padding-top: 10px;
+	padding-bottom: 25px;
+	padding-left: 23px;
+	padding-right: 23px;
+}
+.time{
+	font-size: 8px;
+	line-height: 16px;
+	width: 40px;
+	height: 15px;
+	text-align: center;
+}
+.rating{
+    font-size: 12px;
+    line-height: 26px;
+    margin-right: 15px;
+}
+.price{
+	margin-right: 4px;
+    font-size: 12px;
+    line-height: 26px;
+}
+.category{
+	margin-left: 4px;
+    font-size: 12px;
+    line-height: 26px;
+}
+.footer-link{
+    font-size: 10px;
+    line-height: 13px;
+}
+ 
+/* 320px-576px*/
+@media screen and (max-width: 576px) {
+.container{
+	margin: auto;
+ 	width: 90%;
+ }
+ .logo{
+ 	width: 70px;
+ 	height: 20px;
+ }
+ .button-icon{
+ 	width: 8px;
+ 	height: 8px;
+ }
+ .button{
+ 	font-size: 8px;
+	line-height: 15px;
+	padding: 2px 8px;
+ }
+ .button-primary{
+ 	margin-left: 4px;
+ }
+ .input{
+ 	height: 18px;
+ 	font-size: 8px;
+	line-height: 15px;
+	background-size: 10px 10px;
+	padding-left: 25px;
+}
+ .promo{
+ 	width: 100%;
+ 	height: 100px;
+ 	padding: 15px 25px;
+ 	background-size: 200px 100px;
+ }
+ .offer{
+ 	width: 150px;
+ 	height: 80px;
+ }
+ .promo-title{
+ 	font-size: 10px;
+ 	line-height:12px;
+ }
+ .promo-text{
+ 	font-size: 8px;
+ 	line-height:10px;
+ }
+ .rest-title{
+ 	font-size: 15px;
+ 	padding-right: 50px;
+ }
+ .card-image{
+	width: 144px;
+	height: 80px;
+}
+.card{
+	margin-bottom: 10px;
+}
+.card-title{
+	font-size: 10px;
+	line-height: 15px;
+	margin-left: 10px;
+}
+.star{
+	width: 8px;
+	height: 8px;
+	margin-left: 0;
+	margin-right: 8px;
+}
+.time{
+	font-size: 5px;
+	line-height: 10px;
+	width: 25px;
+	height: 10px;
+	text-align: center;
+	margin-right: 10px;
+}
+.rating{
+    font-size: 8px;
+    line-height: 10px;
+    margin-right: 6px;
+}
+.price{
+	margin-right: 4px;
+    font-size: 7px;
+    line-height: 9px;
+}
+.ellipse{
+	width: 3px;
+	height: 3px;
+}
+.category{
+	margin-left: 4px;
+    font-size: 8px;
+    line-height: 9px;
+}
+.footer-link{
+    font-size: 6px;
+    line-height: 8px;
+}
+
